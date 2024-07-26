@@ -1,3 +1,7 @@
+#Gut microbiome analysis workflow. 16s v3-v4 region sequenced. script coverage: barplot, venn diagrams generation, alpha, beta diversity
+#estimation, permanova analysis, prevalence estimates, differential abundamce testing, correlation network analysis and visualization 
+#of functional predictions
+
 getwd()
 setwd("/Users/jwahura/Documents/16s_qpcr/microbiome_analysis/statistical_analysis/")
 
