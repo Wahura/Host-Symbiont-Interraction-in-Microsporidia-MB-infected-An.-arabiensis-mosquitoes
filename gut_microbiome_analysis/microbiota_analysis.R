@@ -1,5 +1,5 @@
 getwd()
-setwd("/Users/jwahura/Desktop/16s_qpcr/microbiome_analysis/statistical_analysis/")
+setwd("/Users/jwahura/Documents/16s_qpcr/microbiome_analysis/statistical_analysis/")
 
 #loading the required packages
 library(tidyverse)
@@ -21,7 +21,6 @@ library(ggpubr)
 library(DECIPHER)
 library(taxonomizr)
 library(edgeR)
-library(DESeq2)
 library(picante)
 library(psych)
 library(janitor)
@@ -137,7 +136,7 @@ cumulation <- group %>% adorn_totals(c("col"))
 cumulation <- cumulation[order(cumulation$Total, decreasing = TRUE),]
 cumulation$perc = cumulation$Total / sum(cumulation$Total) * 100
 
-#Extracting the various development groups
+#Extracting the various groups
 NBF_internal <- group[,c(1,2,6,10,14,18,42,48,54,64,76)]
 NBF_PN <- group[,c(1,5,12,20,22,24,31,37,38,39,45)]
 NBF_positive <- group[,c(1,28,43,58,61,63,73,78,83,86,89)]
