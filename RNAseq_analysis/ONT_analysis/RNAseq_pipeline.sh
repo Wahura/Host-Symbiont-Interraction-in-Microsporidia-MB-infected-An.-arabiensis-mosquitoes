@@ -1,3 +1,5 @@
+
+
 ##pycoQC
 pycoQC -f sequencing_summary_FAR95474_39d7de8f.txt sequencing_summary_FAR95474_39d7de8f.txt -o pycoQC_output.html
 
@@ -151,7 +153,7 @@ cat ${input_dir}/${barcode}/*/corrected_reads.fastq >> ${output_dir}/${barcode}_
 
 done
 
-##mapping using minimal
+##mapping using minimap
 input_dir="/home/jwahura/lustre/RNAseq/data/72_PN/minimap_input"
 output_dir="/home/jwahura/lustre/RNAseq/data/72_PN/minimap_output"
 
