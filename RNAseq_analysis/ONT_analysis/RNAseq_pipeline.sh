@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 ##pycoQC
 pycoQC -f sequencing_summary_FAR95474_39d7de8f.txt sequencing_summary_FAR95474_39d7de8f.txt -o pycoQC_output.html
