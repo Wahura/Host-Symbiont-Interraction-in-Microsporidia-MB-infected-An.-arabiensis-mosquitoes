@@ -1,3 +1,5 @@
+##RNAseq statistical analysis script inclusive of PCA plotting, differential expression analysis and visualization, enrichment analysis
+
 getwd()
 setwd("/Users/jwahura/Desktop/RNAseq_analysis/sugar_fed_guts/all_corrected_reads/")
 
